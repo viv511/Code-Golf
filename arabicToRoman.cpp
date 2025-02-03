@@ -1,2 +1,2 @@
-#import<iostream>
-int g[]={1000,900,500,400,100,90,50,40,10,9,5,4,1};char*h[]={"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};int main(int c,char*v[]){for(int x=1;x<c;x++){int s=atoi(v[x]),y=0;while(s){while(s/g[y])std::cout<<h[y],s-=g[y];y++;}puts("");}}
+#import<ios>
+int g[]={1000,900,500,400,100,90,50,40,10,9,5,4,1},y,s,x;char*h[]={"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};int main(int c,char*v[]){for(x=1;x<c;x++){s=atoi(v[x]);for(y=0;s;y++)for(;s/g[y];s-=g[y])printf("%s",h[y]);puts("");}}
