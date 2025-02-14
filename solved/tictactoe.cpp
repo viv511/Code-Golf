@@ -1,0 +1,2 @@
+#import<ios>
+int main(int c,char**v){for(int i=1;i<c;i++){char*b=v[i],a=45;int x=0,o=0;for(int j=0;j<11;j++)if(j%4^3)x=x<<1|b[j]==88,o=o<<1|b[j]==79;for(int L:{7,56,448,292,146,73,273,84}){if((L&x)==L)a=88;if((L&o)==L)a=79;}printf("%c\n",a);}}
