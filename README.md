@@ -1,4 +1,5 @@
 # [99 Bottles of Beer](https://code.golf/99-bottles-of-beer)
+Tricks: Ternary
 ~~725~~
 ~~685~~
 ~~487~~
@@ -13,6 +14,7 @@
 ### 108
 
 # [Tic-Tac-Toe](https://code.golf/tic-tac-toe)
+Tricks: Bit Manipulation
 ~~636~~
 ~~331~~
 ~~300~~
@@ -24,10 +26,15 @@
 ### 243
 
 # [Pi](https://code.golf/%CF%80)
+Tricks: Spigot Algorithm
 ~~1050~~
-### 1036
+~~1036~~
+~~724~~
+
+
 
 # [Arabic to Roman](https://code.golf/arabic-to-roman)
+Tricks: ASCII, Modified for-loops
 ~~571~~
 ~~410~~
 ~~383~~
