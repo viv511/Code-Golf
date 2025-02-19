@@ -30,8 +30,8 @@ Tricks: Spigot Algorithm
 ~~1050~~
 ~~1036~~
 ~~724~~
-
-
+~~404~~
+399
 
 # [Arabic to Roman](https://code.golf/arabic-to-roman)
 Tricks: ASCII, Modified for-loops
@@ -45,3 +45,12 @@ Tricks: ASCII, Modified for-loops
 ~~261~~
 ~~259~~
 ### 257
+
+# [Morse Code Decoder](https://code.golf/morse-decoder)
+Tricks: Trie traversal, Compression
+~~3616~~
+~~827~~
+~~691~~
+~~462~~
+~~463~~
+318
