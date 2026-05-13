@@ -1,6 +1,6 @@
 #import<iostream>
 #import<sstream>
-using namespace std;int i,z;int main(int c,char*v[]){string m = "*ETIANMSURWDKGOHVF*L*PJBXCYZQ**54*3***2*******16*******7***8*90",x;stringstream ss(v[1]);while(getline(ss,x,' ')){if(!x.size()){if(!z)cout<<m[i];z++;i=0;}else{i=i*2+((x.size()>6)?2:1);z=0;}if(z==9) cout << " ";}cout<< m[i];}
+using namespace std;int i,z;int main(int c,char*v[]){string m="*ETIANMSURWDKGOHVF*L*PJBXCYZQ**54*3***2*******16*******7***8*90",x;stringstream ss(v[1]);while(getline(ss,x,' ')){if(!x.size()){if(!z)cout<<m[i];z++;i=0;}else{i=i*2+((x.size()>6)?2:1);z=0;}if(z==9)cout<<" ";}cout<<m[i];}
 
 /*
 

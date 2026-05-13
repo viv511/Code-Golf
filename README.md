@@ -11,7 +11,8 @@ Tricks: Ternary
 ~~117~~
 ~~112~~
 ~~110~~
-### 108
+~~108~~
+### 105
 
 # [Tic-Tac-Toe](https://code.golf/tic-tac-toe)
 Tricks: Bit Manipulation
@@ -31,7 +32,7 @@ Tricks: Spigot Algorithm
 ~~1036~~
 ~~724~~
 ~~404~~
-399
+### 399
 
 # [Arabic to Roman](https://code.golf/arabic-to-roman)
 Tricks: ASCII, Modified for-loops
@@ -59,3 +60,12 @@ Tricks: Trie traversal, Compression
 ~~344~~
 ~~147~~
 146
+
+# [Collatz](https://code.golf/collatz)
+~~174~~
+~~163~~
+~~138~~
+~~129~~
+~~116~~
+~~100~~
+99
