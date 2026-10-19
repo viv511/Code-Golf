@@ -1,5 +1,9 @@
+# Problems and Byte Counts
+*problems from https://code.golf/, profile: https://code.golf/golfers/viv511*
+
 # [99 Bottles of Beer](https://code.golf/99-bottles-of-beer)
 Tricks: Ternary
+
 ~~725~~
 ~~685~~
 ~~487~~
@@ -16,6 +20,7 @@ Tricks: Ternary
 
 # [Tic-Tac-Toe](https://code.golf/tic-tac-toe)
 Tricks: Bit Manipulation
+
 ~~636~~
 ~~331~~
 ~~300~~
@@ -28,6 +33,7 @@ Tricks: Bit Manipulation
 
 # [Pi](https://code.golf/%CF%80)
 Tricks: Spigot Algorithm
+
 ~~1050~~
 ~~1036~~
 ~~724~~
@@ -36,6 +42,7 @@ Tricks: Spigot Algorithm
 
 # [Arabic to Roman](https://code.golf/arabic-to-roman)
 Tricks: ASCII, Modified for-loops
+
 ~~571~~
 ~~410~~
 ~~383~~
@@ -49,6 +56,7 @@ Tricks: ASCII, Modified for-loops
 
 # [Morse Code Decoder](https://code.golf/morse-decoder)
 Tricks: Trie traversal, Compression
+
 ~~3616~~
 ~~827~~
 ~~691~~
@@ -58,7 +66,7 @@ Tricks: Trie traversal, Compression
 ~~315~~
 ~~242~~
 ~~231~~
-###
+### 207
 
 # [Arithemtic Numbers](https://code.golf/arithmetic-numbers)
 ~~344~~

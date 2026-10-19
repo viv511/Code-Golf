@@ -1,3 +1,14 @@
+// 207 bytes
+#import<cstdio>
+int i,z,n;int main(int,char**v){for(v++;**v%32?n++:n?i+=i+n/6+1,z=n=0:z++?z-9||putchar(32):i=putchar("*ETIANMSURWDKGOHVF*L*PJBXCYZQ**54*3***2*******16*******7***8*90"[i])&0,**v?*(*v)++:!z;);}
+
+// 211 bytes
+// #import<cstdio>
+// int i,z,n;int main(int,char**v){for(v++;**v%32?n++:n?i+=i-~(n>6),z=n=0:z++?z-9||putchar(32):(putchar("*ETIANMSURWDKGOHVF*L*PJBXCYZQ**54*3***2*******16*******7***8*90"[i]),i=0),**v?*(*v)++:!z;);}
+
+// OK BIG PROGRESS:
+// go from while to a for: we can now drop "p", inline the "m" SINCE we can make the table used once (also -~x instead of x+1)
+
 // 231 bytes
 // #import<cstdio>
 // int i,z,n;int main(int,char**v){char*p=v[1],*m="*ETIANMSURWDKGOHVF*L*PJBXCYZQ**54*3***2*******16*******7***8*90";do*p%32?n++:n?i+=i+(n>6)+1,z=n=0:(z++||putchar(m[i]),i=0,z-9||putchar(32));while(*p++);putchar(m[i]);}
