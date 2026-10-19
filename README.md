@@ -66,7 +66,8 @@ Tricks: Trie traversal, Compression
 ~~315~~
 ~~242~~
 ~~231~~
-### 207
+~~207~~
+### 196
 
 # [Arithemtic Numbers](https://code.golf/arithmetic-numbers)
 ~~344~~

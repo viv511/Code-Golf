@@ -1,6 +1,36 @@
-// 207 bytes
+// 196 bytes
 #import<cstdio>
-int i,z,n;int main(int,char**v){for(v++;**v%32?n++:n?i+=i+n/6+1,z=n=0:z++?z-9||putchar(32):i=putchar("*ETIANMSURWDKGOHVF*L*PJBXCYZQ**54*3***2*******16*******7***8*90"[i])&0,**v?*(*v)++:!z;);}
+int i,z,n;int main(int,char**v){for(v++;**v%32?n++:n?i+=i+n/6+1,z=n=0:z++?z-9||putchar(32):i=putchar("73168290*54ETIANMSURWDKGOHVF*L*PJBXCYZQ"[i>30?i%11:i+10])&0,**v?*(*v)++:!z;);}
+
+// noticing that the digits take up a lot of wasted space. the BT is very effective for letters tho
+// lets make it then this --> under a index we use a BT otherwise we use an index into the string
+// 0: -----
+// 1: .----
+// 2: ..---
+// 3: ...--
+// 4: ....-
+// 5: .....
+// 6: -....
+// 7: --...
+// 8: ---..
+// 9: ----.
+
+// translate all of these into indexes from our original string:
+// 31 (5), 32 (4), 34 (3), 38 (2), 46 (1), 47 (6), 55 (7), 59 (8), 61 (9) & 62 (0) 
+// wrote a c++ program to find all pairwise diffs ==> 11 is the smallest diff that doesnt exist and has no multiples
+
+// mod all by 11, then rearrange by ascending order:
+// "73168290*54"
+
+// then the lookup goes from direct [i] to [i>30?i%11+29:i]
+
+// also can swap them to reduce count by removign the leading asterisk
+
+// =========================================
+
+// 207 bytes
+// #import<cstdio>
+// int i,z,n;int main(int,char**v){for(v++;**v%32?n++:n?i+=i+n/6+1,z=n=0:z++?z-9||putchar(32):i=putchar("*ETIANMSURWDKGOHVF*L*PJBXCYZQ**54*3***2*******16*******7***8*90"[i])&0,**v?*(*v)++:!z;);}
 
 // 211 bytes
 // #import<cstdio>
